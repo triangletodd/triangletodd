@@ -59,7 +59,5 @@ LOCATION=Raleigh, NC
 ```
 
 <p align="center">
-  <code>NO MAGIC. JUST SYSTEMS.</code>
-  <br />
-  <sub>© Todd Edwards · <a href="https://github.com/triangletodd">github.com/triangletodd</a> · // END TRANSMISSION</sub>
+  <sub>© Todd Edwards · <a href="https://github.com/triangletodd">github.com/triangletodd</a></sub>
 </p>
