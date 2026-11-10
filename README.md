@@ -10,12 +10,12 @@
        width="500">
 </p>
 
-<!-- <p align="center">
+<p align="center">
   <a href="https://rte.dev"><img src="https://img.shields.io/badge/rte.dev-0B1220?style=for-the-badge&logo=firefoxbrowser&logoColor=00E5EF" alt="rte.dev" /></a>
-  <a href="https://triangletodd.com"><img src="https://img.shields.io/badge/triangletodd.com-0B1220?style=for-the-badge&logo=githubpages&logoColor=EC6BCB" alt="triangletodd.com" /></a>
+<!--  <a href="https://triangletodd.com"><img src="https://img.shields.io/badge/triangletodd.com-0B1220?style=for-the-badge&logo=githubpages&logoColor=EC6BCB" alt="triangletodd.com" /></a>
   <a href="https://mtn.cc"><img src="https://img.shields.io/badge/mtn.cc-0B1220?style=for-the-badge&logo=linux&logoColor=00E5EF" alt="mtn.cc" /></a>
+-->
 </p>
---> 
 
 ### `> whoami`
 
