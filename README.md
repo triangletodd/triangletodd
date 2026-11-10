@@ -18,7 +18,7 @@ I work at the intersection of **software engineering, Linux infrastructure, clou
 
 I like practical tools, reproducible environments, and solutions that survive contact with production. The best automation is the kind nobody has to think about.
 
-```sh
+```console
 $ cat /etc/profile.d/engineering.conf
 ROLE=Cloud / Solutions Architect
 FOCUS=Platform Engineering + Developer Experience
