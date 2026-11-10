@@ -4,6 +4,12 @@
   <img src="./assets/cyberpunk-header.svg" alt="triangletodd | Todd Edwards — Cloud, DevOps, and Automation" width="100%" />
 </p>
 
+<p align="center">
+  <img src="./assets/neon-hoody-mtn.svg"
+       alt="Hooded developer at laptop"
+       width="500">
+</p>
+
 <!-- <p align="center">
   <a href="https://rte.dev"><img src="https://img.shields.io/badge/rte.dev-0B1220?style=for-the-badge&logo=firefoxbrowser&logoColor=00E5EF" alt="rte.dev" /></a>
   <a href="https://triangletodd.com"><img src="https://img.shields.io/badge/triangletodd.com-0B1220?style=for-the-badge&logo=githubpages&logoColor=EC6BCB" alt="triangletodd.com" /></a>
