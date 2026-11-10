@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/neon-hoody-mtn.svg"
+  <img src="./assets/neon-hoody-mtn.png"
        alt="Hooded developer at laptop"
        width="500">
 </p>
