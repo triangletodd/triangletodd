@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
   <title id="title">triangletodd — cyberpunk GitHub profile banner</title>
-  <desc id="desc">Minimal dark neon technology banner with the name triangletodd, Todd Edwards, cloud engineering, DevOps and automation, and an abstract Raleigh city skyline.</desc>
+  <desc id="desc">Compact dark cyberpunk profile header featuring a hooded developer on the left, triangletodd and Todd Edwards branding in the center, and a neon Raleigh skyline on the right.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b14"/><stop offset=".60" stop-color="#0a1021"/><stop offset="1" stop-color="#180e28"/></linearGradient>
     <linearGradient id="title-grad" x1="0" x2="1"><stop stop-color="#7ff9ff"/><stop offset=".48" stop-color="#00dcea"/><stop offset="1" stop-color="#bf83ff"/></linearGradient>
@@ -9,6 +9,11 @@
     <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="4"/></filter>
     <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#49d9f7" stroke-width=".65" opacity=".11"/></pattern>
     <pattern id="noise" width="31" height="31" patternUnits="userSpaceOnUse"><circle cx="4" cy="9" r=".65" fill="#c3eafc" opacity=".15"/><circle cx="20" cy="27" r=".65" fill="#eab7ff" opacity=".11"/></pattern>
+
+    <linearGradient id="hoodie-fill" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#162a4d"/><stop offset=".47" stop-color="#17203c"/><stop offset="1" stop-color="#381644"/></linearGradient>
+    <linearGradient id="laptop-fill" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#132e4a"/><stop offset=".65" stop-color="#0b1730"/><stop offset="1" stop-color="#271437"/></linearGradient>
+    <linearGradient id="hacker-neon" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#24f7f6"/><stop offset=".56" stop-color="#7b79fa"/><stop offset="1" stop-color="#f85cbd"/></linearGradient>
+    <radialGradient id="hacker-halo"><stop stop-color="#137f99" stop-opacity=".22"/><stop offset=".7" stop-color="#5f2a92" stop-opacity=".07"/><stop offset="1" stop-color="#5f2a92" stop-opacity="0"/></radialGradient>
   </defs>
   <rect width="1280" height="360" fill="url(#bg)"/>
   <rect width="1280" height="360" fill="url(#grid)"/>
@@ -82,15 +87,51 @@
   <path d="M861 290H1262" stroke="#00e5ef" stroke-width="1.3" opacity=".34"/>
   <text x="1072" y="309" text-anchor="middle" fill="#67e7f7" font-size="11" font-weight="600" letter-spacing="2.3" font-family="Consolas, 'Liberation Mono', monospace" opacity=".74">RALEIGH // NC // US-EAST</text>
 
-  <!-- Left-hand identity: high contrast, intentionally restrained -->
-  <text x="78" y="78" font-family="Consolas, 'Liberation Mono', monospace" fill="#63f1ee" font-size="15" letter-spacing="3" font-weight="700">&gt; PROFILE://TRIANGLETODD</text>
-  <rect x="78" y="99" width="62" height="4" fill="#fa54b5"/>
-  <rect x="145" y="99" width="22" height="4" fill="#68f9ff"/>
-  <text x="75" y="194" font-family="'DejaVu Sans Mono', Consolas, monospace" font-weight="700" font-size="71" letter-spacing="-4" fill="#00e5ef" opacity=".17" filter="url(#glow)">triangletodd</text>
-  <text x="75" y="194" font-family="'DejaVu Sans Mono', Consolas, monospace" font-weight="700" font-size="71" letter-spacing="-4" fill="url(#title-grad)">triangletodd</text>
-  <text x="80" y="240" font-family="Consolas, 'Liberation Mono', monospace" fill="#eef7ff" font-size="19" letter-spacing="4.5" font-weight="600">TODD EDWARDS</text>
-  <text x="80" y="278" font-family="Consolas, 'Liberation Mono', monospace" fill="#9caecb" font-size="15" letter-spacing="2.1">CLOUD  /  DEVOPS  /  AUTOMATION</text>
-  <path d="M79 298H585" stroke="url(#line-grad)" stroke-width="1.4" opacity=".65"/>
-  <text x="80" y="326" font-family="Consolas, 'Liberation Mono', monospace" fill="#72d8dc" font-size="12" letter-spacing="2.1" opacity=".9">BUILD  &gt;  SHIP  &gt;  AUTOMATE_</text>
+
+  <!-- Neon hooded developer integrated into the banner, with no extra vertical image -->
+  <g id="hacker" transform="translate(41 16)">
+    <ellipse cx="146" cy="183" rx="153" ry="167" fill="url(#hacker-halo)"/>
+    <circle cx="145" cy="161" r="126" fill="none" stroke="#40e6fa" stroke-width=".9" opacity=".11" stroke-dasharray="3 10"/>
+    <path d="M21 283C22 246 29 192 55 173C75 159 99 149 113 147H191C216 156 238 167 254 192C272 218 277 257 280 292L258 323H43Z"
+      fill="url(#hoodie-fill)" stroke="url(#hacker-neon)" stroke-width="2.4"/>
+    <!-- Hood silhouette with angular textile panels -->
+    <path d="M77 155C69 131 74 90 88 61C104 27 127 12 150 5C171 14 202 32 215 61C228 90 235 127 225 155L195 178H109Z"
+      fill="#10192e" stroke="url(#hacker-neon)" stroke-width="3.2"/>
+    <path d="M80 119C91 64 116 25 150 7C138 48 126 76 123 104C103 109 90 113 80 119Z" fill="#1d4060" opacity=".74"/>
+    <path d="M151 7C179 23 210 52 224 116C208 104 193 98 174 95C169 70 159 31 151 7Z" fill="#382348" opacity=".86"/>
+    <path d="M89 141C104 107 116 99 149 98C188 96 204 114 214 141L195 167L153 191L111 166Z"
+      fill="#040a17" stroke="#4cddf1" stroke-opacity=".4" stroke-width="1.8"/>
+    <!-- Cyan and magenta terminal output projected on the hood's face -->
+    <g stroke-linecap="round" stroke-width="3.1" opacity=".94">
+      <path d="M117 124l8 5-8 5M136 129h12M153 129h17" fill="none" stroke="#5ef5f3"/>
+      <path d="M124 142h43M174 142h15M131 152h17M154 152h31" stroke="#4ae9f4"/>
+      <path d="M141 162h27M175 162h9" stroke="#5ef5f3"/>
+      <path d="M171 129h12M111 152h10M154 170h14" stroke="#f665c8"/>
+    </g>
+    <path d="M77 170C51 188 39 214 31 246M221 169C247 185 255 221 261 245" fill="none" stroke="url(#hacker-neon)" opacity=".5" stroke-width="2.8"/>
+    <path d="M106 171L88 204M198 171l19 33" stroke="#8ba7ef" opacity=".35" stroke-width="3"/>
+    <path d="M119 178L130 213M183 178L172 213" stroke="#45dfe7" opacity=".4" stroke-width="2"/>
+    <!-- Laptop lid and retained mountain + moon emblem -->
+    <rect x="30" y="209" width="243" height="115" rx="10" fill="url(#laptop-fill)" stroke="url(#hacker-neon)" stroke-width="3.5"/>
+    <rect x="38" y="217" width="227" height="99" rx="5" fill="none" stroke="#67c8ed" stroke-opacity=".25" stroke-width="1"/>
+    <path d="M47 231v-8h15M257 231v-8h-15M47 299v9h15M257 299v9h-15" fill="none" stroke="#3eeaf0" stroke-width="1.7"/>
+    <circle cx="151" cy="255" r="12" fill="#f160bf"/>
+    <path d="M117 288l33-38 15 20 8-9 29 27Z" fill="#397aaa" stroke="#a9d7ef" stroke-width="1.8"/>
+    <path d="M137 266l13-16 15 20 8-9 8 13-17-7-8 8-6-9-5 8Z" fill="#d2edff"/>
+    <path d="M64 311h17M221 311h17" stroke="#f967c9" stroke-width="2.5"/>
+    <path d="M49 326H255" stroke="#9b8fe9" stroke-opacity=".42" stroke-width="2"/>
+    <path d="M105 331H204" stroke="#47e3ee" stroke-opacity=".25" stroke-width="1"/>
+  </g>
+
+  <!-- Center identity shifted right to accommodate the hooded figure -->
+  <text x="368" y="78" font-family="Consolas, 'Liberation Mono', monospace" fill="#63f1ee" font-size="15" letter-spacing="3" font-weight="700">&gt; PROFILE://TRIANGLETODD</text>
+  <rect x="368" y="99" width="62" height="4" fill="#fa54b5"/>
+  <rect x="435" y="99" width="22" height="4" fill="#68f9ff"/>
+  <text x="365" y="194" font-family="'DejaVu Sans Mono', Consolas, monospace" font-weight="700" font-size="71" letter-spacing="-4" fill="#00e5ef" opacity=".17" filter="url(#glow)">triangletodd</text>
+  <text x="365" y="194" font-family="'DejaVu Sans Mono', Consolas, monospace" font-weight="700" font-size="71" letter-spacing="-4" fill="url(#title-grad)">triangletodd</text>
+  <text x="370" y="240" font-family="Consolas, 'Liberation Mono', monospace" fill="#eef7ff" font-size="19" letter-spacing="4.5" font-weight="600">TODD EDWARDS</text>
+  <text x="370" y="278" font-family="Consolas, 'Liberation Mono', monospace" fill="#9caecb" font-size="15" letter-spacing="2.1">CLOUD  /  DEVOPS  /  AUTOMATION</text>
+  <path d="M369 298H877" stroke="url(#line-grad)" stroke-width="1.4" opacity=".65"/>
+  <text x="370" y="326" font-family="Consolas, 'Liberation Mono', monospace" fill="#72d8dc" font-size="12" letter-spacing="2.1" opacity=".9">BUILD  &gt;  SHIP  &gt;  AUTOMATE_</text>
   <text x="1234" y="31" text-anchor="end" font-family="Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="1.7" fill="#f47cc9" opacity=".67">SYS://ENGINEERING</text>
 </svg>
