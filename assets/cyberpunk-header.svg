@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">triangletodd — cyberpunk GitHub profile banner</title>
+  <desc id="desc">Minimal dark neon technology banner with the name triangletodd, Todd Edwards, cloud engineering, DevOps and automation, and an abstract Raleigh city skyline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b14"/><stop offset=".60" stop-color="#0a1021"/><stop offset="1" stop-color="#180e28"/></linearGradient>
+    <linearGradient id="title-grad" x1="0" x2="1"><stop stop-color="#7ff9ff"/><stop offset=".48" stop-color="#00dcea"/><stop offset="1" stop-color="#bf83ff"/></linearGradient>
+    <linearGradient id="line-grad" x1="0" x2="1"><stop stop-color="#00e5f0" stop-opacity=".8"/><stop offset=".55" stop-color="#bf74ff" stop-opacity=".46"/><stop offset="1" stop-color="#fb4db3" stop-opacity=".85"/></linearGradient>
+    <linearGradient id="tower" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#1a2d44"/><stop offset="1" stop-color="#080b16"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="4"/></filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#49d9f7" stroke-width=".65" opacity=".11"/></pattern>
+    <pattern id="noise" width="31" height="31" patternUnits="userSpaceOnUse"><circle cx="4" cy="9" r=".65" fill="#c3eafc" opacity=".15"/><circle cx="20" cy="27" r=".65" fill="#eab7ff" opacity=".11"/></pattern>
+  </defs>
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#grid)"/>
+  <rect width="1280" height="360" fill="url(#noise)"/>
+  <path d="M0 12H290M315 12H620M642 12H855" fill="none" stroke="#4ef4ff" opacity=".25" stroke-width="2"/>
+  <path d="M0 347H207M230 347H810M824 347H1280" fill="none" stroke="url(#line-grad)" opacity=".7" stroke-width="2"/>
+  <path d="M0 322H352M830 52H1280" fill="none" stroke="#cb68df" stroke-width="1.4" opacity=".23"/>
+  <path d="M29 34H51V55M1254 34H1233V55M29 300H51V278M1254 300H1233V278" fill="none" stroke="#58f5f7" stroke-width="2" opacity=".6"/>
+
+  <!-- Subtle data pathways, tucked behind the title -->
+  <path d="M0 129H34L55 109H186M0 211H26L49 229H217M575 34H665L688 57H758" stroke="#00e5ef" stroke-width="1" fill="none" opacity=".19"/>
+  <circle cx="186" cy="109" r="3" fill="#00e5ef" opacity=".35"/><circle cx="217" cy="229" r="2.8" fill="#f25bbf" opacity=".35"/>
+
+  <!-- Abstract city / circuit skyline; no water -->
+  <circle cx="1067" cy="166" r="113" fill="none" stroke="#a263ff" stroke-width="1" opacity=".30"/>
+  <circle cx="1067" cy="166" r="96" fill="none" stroke="#00e5ef" stroke-width="1" opacity=".20" stroke-dasharray="3 10"/>
+  <path d="M970 65L1165 264M1165 65L970 264" stroke="#c75afa" opacity=".13"/>
+  <path d="M946 227h36v-74h13v-16h11v90h22v-119h17V82h13v26h21v119h16v-67h11v-21h14v21h11v67h21v-94h16v-18h12v112h32v100H946z" fill="url(#tower)" stroke="#6ef6ff" stroke-opacity=".39" stroke-width="1.4"/>
+  <path d="M969 227v-47m35 47v-66m34 66v-95m47 95v-94m57 94v-69m40 69v-82" stroke="#f873d2" opacity=".2"/>
+  <path d="M1032 108h36M1070 138h16M1116 160h27" stroke="#75eeff" opacity=".5" stroke-width="1.3"/>
+  <path d="M949 234H1208M939 248H1220M919 262H1241" stroke="#62dcff" opacity=".22"/>
+
+  <rect x="953" y="164" width="2.5" height="6" fill="#ee68c0" opacity="0.23"/>
+  <rect x="953" y="181" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="953" y="198" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="953" y="215" width="2.5" height="6" fill="#63e6f4" opacity="0.23"/>
+  <rect x="962" y="164" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="962" y="181" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="962" y="198" width="2.5" height="6" fill="#63e6f4" opacity="0.23"/>
+  <rect x="962" y="215" width="2.5" height="6" fill="#ee68c0" opacity="0.55"/>
+  <rect x="990" y="162" width="2.5" height="6" fill="#ee68c0" opacity="0.23"/>
+  <rect x="990" y="179" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="990" y="196" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="990" y="213" width="2.5" height="6" fill="#63e6f4" opacity="0.23"/>
+  <rect x="999" y="162" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="999" y="179" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="999" y="196" width="2.5" height="6" fill="#63e6f4" opacity="0.23"/>
+  <rect x="999" y="213" width="2.5" height="6" fill="#ee68c0" opacity="0.55"/>
+  <rect x="1037" y="129" width="2.5" height="6" fill="#ee68c0" opacity="0.23"/>
+  <rect x="1037" y="146" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="1037" y="163" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="1037" y="180" width="2.5" height="6" fill="#63e6f4" opacity="0.23"/>
+  <rect x="1037" y="197" width="2.5" height="6" fill="#ee68c0" opacity="0.55"/>
+  <rect x="1037" y="214" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="1037" y="231" width="2.5" height="6" fill="#63e6f4" opacity="0.23"/>
+  <rect x="1046" y="129" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="1046" y="146" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="1046" y="163" width="2.5" height="6" fill="#63e6f4" opacity="0.23"/>
+  <rect x="1046" y="180" width="2.5" height="6" fill="#ee68c0" opacity="0.55"/>
+  <rect x="1046" y="197" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="1046" y="214" width="2.5" height="6" fill="#63e6f4" opacity="0.23"/>
+  <rect x="1046" y="231" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="1089" y="171" width="2.5" height="6" fill="#ee68c0" opacity="0.23"/>
+  <rect x="1089" y="188" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="1089" y="205" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="1119" y="177" width="2.5" height="6" fill="#ee68c0" opacity="0.23"/>
+  <rect x="1119" y="194" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="1119" y="211" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="1128" y="177" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="1128" y="194" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="1128" y="211" width="2.5" height="6" fill="#63e6f4" opacity="0.23"/>
+  <rect x="1170" y="151" width="2.5" height="6" fill="#ee68c0" opacity="0.23"/>
+  <rect x="1170" y="168" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="1170" y="185" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="1170" y="202" width="2.5" height="6" fill="#63e6f4" opacity="0.23"/>
+  <rect x="1179" y="151" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="1179" y="168" width="2.5" height="6" fill="#63e6f4" opacity="0.55"/>
+  <rect x="1179" y="185" width="2.5" height="6" fill="#63e6f4" opacity="0.23"/>
+  <rect x="1179" y="202" width="2.5" height="6" fill="#ee68c0" opacity="0.55"/>
+
+  <path d="M861 290H1262" stroke="#00e5ef" stroke-width="1.3" opacity=".34"/>
+  <text x="1072" y="309" text-anchor="middle" fill="#67e7f7" font-size="11" font-weight="600" letter-spacing="2.3" font-family="Consolas, 'Liberation Mono', monospace" opacity=".74">RALEIGH // NC // US-EAST</text>
+
+  <!-- Left-hand identity: high contrast, intentionally restrained -->
+  <text x="78" y="78" font-family="Consolas, 'Liberation Mono', monospace" fill="#63f1ee" font-size="15" letter-spacing="3" font-weight="700">&gt; PROFILE://TRIANGLETODD</text>
+  <rect x="78" y="99" width="62" height="4" fill="#fa54b5"/>
+  <rect x="145" y="99" width="22" height="4" fill="#68f9ff"/>
+  <text x="75" y="194" font-family="'DejaVu Sans Mono', Consolas, monospace" font-weight="700" font-size="71" letter-spacing="-4" fill="#00e5ef" opacity=".17" filter="url(#glow)">triangletodd</text>
+  <text x="75" y="194" font-family="'DejaVu Sans Mono', Consolas, monospace" font-weight="700" font-size="71" letter-spacing="-4" fill="url(#title-grad)">triangletodd</text>
+  <text x="80" y="240" font-family="Consolas, 'Liberation Mono', monospace" fill="#eef7ff" font-size="19" letter-spacing="4.5" font-weight="600">TODD EDWARDS</text>
+  <text x="80" y="278" font-family="Consolas, 'Liberation Mono', monospace" fill="#9caecb" font-size="15" letter-spacing="2.1">CLOUD  /  DEVOPS  /  AUTOMATION</text>
+  <path d="M79 298H585" stroke="url(#line-grad)" stroke-width="1.4" opacity=".65"/>
+  <text x="80" y="326" font-family="Consolas, 'Liberation Mono', monospace" fill="#72d8dc" font-size="12" letter-spacing="2.1" opacity=".9">BUILD  &gt;  SHIP  &gt;  AUTOMATE_</text>
+  <text x="1234" y="31" text-anchor="end" font-family="Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="1.7" fill="#f47cc9" opacity=".67">SYS://ENGINEERING</text>
+</svg>
