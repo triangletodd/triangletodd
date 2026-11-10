@@ -1,9 +1,7 @@
 <!-- GitHub profile README for github.com/triangletodd -->
 
 <p align="center">
-  <img src="./assets/cyberpunk-header.svg" alt="triangletodd | Todd Edwards — Cloud, DevOps, and Automation" width="100%" />
-  <br />
-  <img src="./assets/neon-hoody-mtn.png" alt="Hooded developer at laptop" width="500">
+  <img src="./assets/cyberpunk-header.svg" alt="Cyberpunk banner with hooded developer, triangletodd branding, and Raleigh skyline" width="100%" />
 </p>
 
 <p align="center">
